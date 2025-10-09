@@ -72,4 +72,6 @@ if __name__ == "__main__":
     main()
 
 
+# output
+print("Operation performed successfully")
 # end of code
