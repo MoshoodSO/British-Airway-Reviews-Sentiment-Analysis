@@ -32,15 +32,8 @@ print(df["verified"].value_counts(dropna=False))
 # Stripping leading and trailing whitespace from the 'content' column
 df["content"] = df["content"].str.strip()
 
-
-
-
-
-
 # Creating a new dataframe with selected columns
 df = df[['date', 'name', 'country', 'verified', 'content']]
-
-
 
 ##### Cleaning the "content" column
 # separating the "comment" column
