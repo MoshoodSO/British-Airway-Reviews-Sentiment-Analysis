@@ -55,11 +55,6 @@ df["clean_comment_short"] = df["clean_comment"].apply(lambda x: truncate_to_mode
 # Apply sentiment analysis to the truncated content column and store results in a new column 
 df["reviews_sentiment"] = df["clean_comment_short"].apply(lambda x: sentiment(x)[0]['label'] if pd.notnull(x) and x else None)
 df["reviews_sentiment_score"] = df["clean_comment_short"].apply(lambda x: sentiment(x)[0]['score'] if pd.notnull(x) and x else None)
-#df[["reviews_sentiment", "reviews_sentiment_score"]] = df["clean_comment_short"].apply(
-#    lambda x: pd.Series(
-#        sentiment(x)[0] if pd.notnull(x) and x else {"label": None, "score": None}
-#    )
-#)[["label", "score"]].rename(columns={"label": "reviews_sentiment", "score": "reviews_sentiment_score"})
 
 # Drop the temporary 'content_short' column
 df1 = df.drop(columns=["clean_comment_short"])
@@ -69,3 +64,5 @@ df1.to_csv("data/clean_british_airways_reviews_with_sentiment_report.csv")
 
 # Indicating completion of the sentiment analysis and exporting process
 print("Done sentiment analysis and exporting the data!!!")
+
+# End of code
