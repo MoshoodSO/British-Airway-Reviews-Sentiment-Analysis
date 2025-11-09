@@ -9,6 +9,7 @@ This project performs sentiment analysis on customer reviews of *British Airways
 
 The review data was *scraped from the British Airways section* of the [Skytrax airline review website](https://www.airlinequality.com/airline-reviews/british-airways/), a popular platform for airline service ratings and passenger experiences.
 
+
 ## 📌 Objective
 
 The primary goal of this project is to perform *sentiment analysis* on customer reviews of *British Airways* using *Natural Language Processing (NLP)* and *machine learning techniques*. Specifically, the project aims to:
@@ -19,3 +20,5 @@ The primary goal of this project is to perform *sentiment analysis* on customer 
 - Build and evaluate classification models to categorize reviews as *positive*, *negative*, or *neutral*  
 - Help uncover patterns and trends in customer satisfaction over time  
 - Support airline decision-makers in improving services based on data-driven feedback
+
+This project demonstrates how text mining and sentiment classification can provide valuable insights into customer experience in the aviation industry.
