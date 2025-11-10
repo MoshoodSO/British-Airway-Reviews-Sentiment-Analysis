@@ -22,3 +22,17 @@ The primary goal of this project is to perform *sentiment analysis* on customer 
 - Support airline decision-makers in improving services based on data-driven feedback
 
 This project demonstrates how text mining and sentiment classification can provide valuable insights into customer experience in the aviation industry.
+
+
+---
+
+## 📂 Project Structure
+
+
+british-airways-reviews-sentiment-analysis/
+├── data/                             # Raw and cleaned review data
+├── plots/                            # Evaluation metrics, visualizations
+├── analysis.ipynb
+├── requirements.txt                  # List of dependencies
+└── README.md                         # Project overview
+```
