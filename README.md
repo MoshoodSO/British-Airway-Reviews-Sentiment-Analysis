@@ -30,9 +30,12 @@ This project demonstrates how text mining and sentiment classification can provi
 
 ```
 British-airways-reviews-sentiment-analysis/
-├── data/                             # Raw and cleaned review data
-├── plots/                            # Evaluation metrics, visualizations
-├── analysis.ipynb
-├── requirements.txt                  # List of dependencies
-└── README.md                         # Project overview
+  ├── data/                             # Raw and cleaned review data
+  ├── plots/                            # Evaluation metrics, visualisations
+  ├── analysis.ipynb                    # Jupyter notebooks for EDA, and other visualisations
+  ├── cleaning_data.py
+  ├── extract_data.py
+  ├── sentiment_analysis.py             # Python script for the sentiment analysis
+  ├── requirements.txt                  # List of dependencies
+  └── README.md                         # Project overview
 ```
