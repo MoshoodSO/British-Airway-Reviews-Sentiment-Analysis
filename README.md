@@ -34,7 +34,7 @@ British-airways-reviews-sentiment-analysis/
   ├── plots/                            # Evaluation metrics, visualisations
   ├── analysis.ipynb                    # Jupyter notebooks for EDA, and other visualisations
   ├── cleaning_data.py                  # Python script for cleaning and organising the raw data
-  ├── extract_data.py
+  ├── extract_data.py                   # Python script for the scrapping of data from the web page
   ├── sentiment_analysis.py             # Python script for the sentiment analysis
   ├── requirements.txt                  # List of dependencies
   └── README.md                         # Project overview
