@@ -39,3 +39,5 @@ British-airways-reviews-sentiment-analysis/
   ├── requirements.txt                  # List of dependencies
   └── README.md                         # Project overview
 ```
+
+## Technique and tool used
