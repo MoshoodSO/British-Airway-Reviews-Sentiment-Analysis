@@ -48,4 +48,13 @@ British-airways-reviews-sentiment-analysis/
 - *Visualization*: Matplotlib, Seaborn, WordCloud
 - *Jupyter Notebook* for development and testing
 
-##
+
+## 📈 Process Overview
+
+1. *Data Collection*: British Airways review dataset
+2. *Text Preprocessing*: Tokenization, stopword removal, stemming/lemmatization
+3. *Exploratory Data Analysis (EDA)*: Common words, review lengths, sentiment distribution
+4. *Feature Engineering*: TF-IDF/CountVectorizer
+5. *Model Training*: Train/test split, training classifiers
+6. *Evaluation*: Accuracy, precision, recall, confusion matrix
+7. *Visualization*: Word clouds, sentiment trends
