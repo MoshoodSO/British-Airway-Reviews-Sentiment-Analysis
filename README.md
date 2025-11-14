@@ -56,3 +56,10 @@ British-Airways-Reviews-Sentiment-Analysis/
 3. *Exploratory Data Analysis (EDA)*: Common words, review lengths, sentiment distribution
 4. *Feature Engineering*: transformer
 5. *Visualization*: Word clouds, sentiment trends
+
+## 📚 Data Source
+
+Customer reviews obtained from:
+- [Skytrax Airline Reviews](https://www.airlinequality.com/)
+
+---
