@@ -60,6 +60,6 @@ British-Airways-Reviews-Sentiment-Analysis/
 ## 📚 Data Source
 
 Customer reviews obtained from:
-- [Skytrax Airline Reviews](https://www.airlinequality.com/)
+- [Skytrax Airline Reviews](https://www.airlinequality.com/airline-reviews/british-airways/)
 
 ---
