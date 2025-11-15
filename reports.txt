@@ -1,0 +1,129 @@
+Counts of the verified review column entries: 
+None	1524
+Trip Verified	1360
+Verified Review	770
+Not Verified	306
+Unverified	20
+
+Counts of the number of reviews made per year: 
+2025	59
+2024	133
+2023	221
+2022	171
+2021	70
+2020	79
+2019	282
+2018	254
+2017	448
+2016	458
+2015	603
+2014	363
+2012	12
+2011	3
+
+Counts of the number of reviews made per month: 
+1	275
+2	193
+3	244
+4	250
+5	278
+6	311
+7	259
+8	255
+9	281
+10	288
+11	285
+12	237
+
+Counts of the number of reviews made based on seat types: 
+Economy Class	2072
+Business Class	1299
+Premium Economy	386
+First Class	221
+
+Counts of the number of reviews made based on types of traveller: 
+Couple Leisure	1074
+Family Leisure	455
+Solo Leisure	991
+Business	688
+
+Counts of the number of reviews made based on type of the review sentiments: 
+negative	3033
+positive	947
+
+Counts of the number of reviews made by countries: 
+United Kingdom	2483
+United States	466
+Australia	168
+Canada	129
+Germany	69
+South Africa	45
+Ireland	43
+Switzerland	42
+Netherlands	38
+Singapore	31
+Spain	30
+France	28
+Belgium	27
+Italy	24
+Thailand	23
+United Arab Emirates	23
+India	22
+Sweden	21
+China	19
+Hong Kong	17
+Greece	15
+Denmark	14
+Malaysia	14
+Portugal	13
+Austria	12
+New Zealand	12
+Saudi Arabia	9
+Mexico	8
+Poland	8
+Qatar	7
+Ghana	7
+Romania	6
+Iceland	6
+Kuwait	6
+Argentina	6
+Cyprus	6
+Japan	6
+Czech Republic	5
+Norway	5
+South Korea	5
+Turkey	4
+Israel	4
+Brazil	4
+Slovakia	3
+Taiwan	3
+Russian Federation	3
+Bulgaria	3
+Nigeria	3
+Hungary	2
+Philippines	2
+Lebanon	2
+Luxembourg	2
+Botswana	2
+Bermuda	2
+Ukraine	2
+Finland	2
+Egypt	2
+Barbados	1
+Dominican Republic	1
+Bahrain	1
+Indonesia	1
+Trinidad & Tobago	1
+Laos	1
+Chile	1
+Costa Rica	1
+Cayman Islands	1
+Jordan	1
+Vietnam	1
+Saint Kitts and Nevis	1
+Panama	1
+Senegal	1
+Ecuador	1
+Morocco	1
+Oman	1
+
