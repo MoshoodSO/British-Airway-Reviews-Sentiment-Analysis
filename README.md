@@ -64,6 +64,6 @@ Customer reviews obtained from:
 
 ---
 
-## 🙌 Credits
+## 🙌 Author
 
 Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as an application of my knowledge and understanding of NLP to real world problem.
