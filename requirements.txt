@@ -2,4 +2,4 @@ Required libraries:
 - Pandas
 - Matplotlib 
 - Numpy
-- Os
+- Re
