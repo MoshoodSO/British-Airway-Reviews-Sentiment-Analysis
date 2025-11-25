@@ -45,7 +45,7 @@ British-Airways-Reviews-Sentiment-Analysis/
 
 - *Python* (Pandas, NumPy, Scikit-learn)
 - *NLP*: NLTK, transformer
-- *ML Models*: Logistic Regression, Naive Bayes, or others
+- *ML Models*: Logistic Regression
 - *Visualization*: Matplotlib, Seaborn, WordCloud
 - *Jupyter Notebook* for development and testing
 
