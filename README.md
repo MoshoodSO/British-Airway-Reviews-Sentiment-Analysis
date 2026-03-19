@@ -43,7 +43,7 @@ British-Airways-Reviews-Sentiment-Analysis/
 
 ## 🧪 Techniques & Tools Used
 
-- *Python* (Pandas, NumPy, Scikit-learn)
+- *Python Libraries:* Pandas, NumPy, Scikit-learn
 - *NLP*: NLTK, transformer
 - *ML Models*: Logistic Regression
 - *Visualization*: Matplotlib, Seaborn, WordCloud
