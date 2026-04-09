@@ -11,7 +11,7 @@ The review data was *scraped from the British Airways section* of the [Skytrax a
 
 ## Summary of the Visualisations
 
-
+![Summary](https://github.com/MoshoodSO/Financial-Inclusion-among-Young-People/blob/main/financial_inclusion_demo1.gif)
 
 
 ## 📌 Objective
