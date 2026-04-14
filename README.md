@@ -9,9 +9,9 @@ This project performs sentiment analysis on customer reviews of *British Airways
 
 The review data was *scraped from the British Airways section* of the [Skytrax airline review website](https://www.airlinequality.com/airline-reviews/british-airways/), a popular platform for airline service ratings and passenger experiences.
 
-## Summary of the Visualisations
+<!-- ## Summary of the Visualisations
 
-![Summary](https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis/blob/main/demo/british_gif.gif)
+![Summary](https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis/blob/main/demo/british_gif.gif) -->
 
 ## 📌 Objective
 
