@@ -71,4 +71,4 @@ Customer reviews obtained from:
 
 ## 🙌 Author
 
-Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as an application of my knowledge and understanding of NLP to real world problem.
+Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as an application of my knowledge and understanding of Natural Language Processing (NLP) to real world problem.
