@@ -47,9 +47,10 @@ British-Airways-Reviews-Sentiment-Analysis/
 ## Installation
 
 1. Clone the repository:
-
+   ```
    git clone https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis.git
    cd British-Airway-Reviews-Sentiment-Analysis
+   ```
 
 2. Create a virtual environment (recommended) and install dependencies:
 
