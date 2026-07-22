@@ -54,9 +54,11 @@ British-Airways-Reviews-Sentiment-Analysis/
 
 2. Create a virtual environment (recommended) and install dependencies:
 
+    ```
    python -m venv venv
    source venv/bin/activate   # on Windows: venv\Scripts\activate
    pip install -r requirements.txt
+    ```
 
 If you don't have a GPU, the transformer models will run on CPU (slower). You can comment out transformer-related sections in the notebook or scripts if you want to run faster with classical features only.
 
