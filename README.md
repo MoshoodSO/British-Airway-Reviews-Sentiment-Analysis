@@ -26,7 +26,7 @@ The goal is to provide actionable insights for stakeholders (product managers, c
 
 ---
 
-## Contents
+## Structure
 
 ```
 British-Airways-Reviews-Sentiment-Analysis/
