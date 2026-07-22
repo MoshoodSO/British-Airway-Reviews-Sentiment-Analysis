@@ -83,7 +83,7 @@ Script arguments may vary — open the top of each script to see available CLI f
 
 ## Data source and ethics
 
-- Source: Reviews were collected from Skytrax (AirlineQuality): https://www.airlinequality.com/airline-reviews/british-airways/
+- Source: Reviews were collected from Skytrax (AirlineQuality): [British Airways](https://www.airlinequality.com/airline-reviews/british-airways/)
 - Note: If you plan to reproduce this work, check the site’s robots.txt and terms of service. Use scraped data responsibly and respect copyright and privacy.
 - The repository contains no personal data other than the publicly-posted review text. If you extend this project, consider anonymization best practices.
 
