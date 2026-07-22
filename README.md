@@ -1,74 +1,151 @@
-## ✈️ British Airway Reviews Sentiment Analysis
+# ✈️ British Airways Reviews — Sentiment Analysis
 
-This project performs sentiment analysis on customer reviews of *British Airways* to:
-
-- Understand overall passenger satisfaction  
-- Identify key themes in customer feedback  
-- Classify reviews as *positive*, *negative*, or *neutral*
-- Analyse the reviews feedback to get more insights
-
-The review data was *scraped from the British Airways section* of the [Skytrax airline review website](https://www.airlinequality.com/airline-reviews/british-airways/), a popular platform for airline service ratings and passenger experiences.
-
-<!-- ## Summary of the Visualisations
-
-![Summary](https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis/blob/main/demo/british_gif.gif) -->
-
-## 📌 Objective
-
-The primary goal of this project is to perform *sentiment analysis* on customer reviews of *British Airways* using *Natural Language Processing (NLP)* and *machine learning techniques*. Specifically, the project aims to:
-
-- Analyze large volumes of textual feedback from passengers  
-- Preprocess and clean raw review data for effective modeling  
-- Use NLP techniques to extract meaningful insights and identify frequently mentioned keywords or themes  
-- Build and evaluate classification models to categorize reviews as *positive*, *negative*, or *neutral*  
-- Help uncover patterns and trends in customer satisfaction over time  
-- Support airline decision-makers in improving services based on data-driven feedback
-
-This project demonstrates how text mining and sentiment classification can provide valuable insights into customer experience in the aviation industry.
-
+This repository performs sentiment analysis on passenger reviews for British Airways to help quantify customer satisfaction, surface recurring themes, and classify text feedback as positive, negative, or neutral.
 
 ---
 
-## 📂 Project Structure
+## Project summary
+
+This project demonstrates an end-to-end Natural Language Processing (NLP) workflow applied to real customer reviews scraped from Skytrax (AirlineQuality). The analysis covers:
+
+- Data acquisition (web scraping)
+- Data cleaning and preprocessing (tokenization, stopword removal, normalization)
+- Feature extraction using classical NLP and transformer-based approaches
+- Model training, evaluation and comparison (logistic regression and transformer embeddings)
+- Visualizations and reporting (word clouds, sentiment distribution, trends)
+
+The goal is to provide actionable insights for stakeholders (product managers, customer-experience teams, data scientists) who want to understand passenger sentiment and key pain points.
+
+---
+
+## Key results (short)
+
+- Reviews are classified into positive, negative, and neutral categories.
+- Visualizations include sentiment distribution, common keywords per sentiment, and word clouds to highlight frequent terms.
+- A baseline model (Logistic Regression) is implemented; transformer-based features are used as an optional higher-performing alternative.
+
+---
+
+## Contents
 
 ```
 British-Airways-Reviews-Sentiment-Analysis/
-  ├── data/                             # Raw and cleaned review data
-  ├── demo/
-  ├── plots/                            # Evaluation metrics, visualisations
-  ├── reports/                          # Report on the analysis
-  ├── analysis.ipynb                    # Jupyter notebooks for EDA, and other visualisations
-  ├── cleaning_data.py                  # Python script for cleaning and organising the raw data
-  ├── extract_data.py                   # Python script for the scrapping of data from the web page
-  ├── sentiment_analysis.py             # Python script for the sentiment analysis
-  ├── requirements.txt                  # List of dependencies
-  └── README.md                         # Project overview
+  ├── data/                             # Raw and cleaned review data (CSV/JSON)
+  ├── demo/                             # Small demo artifacts and GIFs for the README
+  ├── plots/                            # Generated plots and images
+  ├── reports/                          # Written report and result export
+  ├── analysis.ipynb                    # Jupyter notebook: EDA, visualizations, experiments
+  ├── cleaning_data.py                  # Script: clean and normalize raw reviews
+  ├── extract_data.py                   # Script: scrape reviews from Skytrax
+  ├── sentiment_analysis.py             # Script: train/evaluate classification models
+  ├── requirements.txt                  # Python dependencies
+  └── README.md                         # Project overview (this file)
 ```
-
-## 🧪 Techniques & Tools Used
-
-- *Python Libraries:* Pandas, NumPy, Scikit-learn
-- *NLP*: NLTK, transformer
-- *ML Models*: Logistic Regression
-- *Visualization*: Matplotlib, Seaborn, WordCloud
-- *Jupyter Notebook* for development and testing
-
-
-## 📈 Process Overview
-
-1. *Data Collection*: British Airways review dataset
-2. *Text Preprocessing*: Tokenization, stopword removal, stemming/lemmatization
-3. *Exploratory Data Analysis (EDA)*: Common words, review lengths, sentiment distribution
-4. *Feature Engineering*: transformer
-5. *Visualization*: Word clouds, sentiment trends
-
-## 📚 Data Source
-
-Customer reviews obtained from:
-- [Skytrax Airline Reviews](https://www.airlinequality.com/airline-reviews/british-airways/)
 
 ---
 
-## 🙌 Author
+## Installation
 
-Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as an application of my knowledge and understanding of Natural Language Processing (NLP) to real world problem.
+1. Clone the repository:
+
+   git clone https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis.git
+   cd British-Airway-Reviews-Sentiment-Analysis
+
+2. Create a virtual environment (recommended) and install dependencies:
+
+   python -m venv venv
+   source venv/bin/activate   # on Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+
+If you don't have a GPU, the transformer models will run on CPU (slower). You can comment out transformer-related sections in the notebook or scripts if you want to run faster with classical features only.
+
+---
+
+## Usage
+
+There are two main ways to run the analysis: via the Jupyter notebook for exploratory work, or running the scripts for reproducible runs.
+
+- Notebook (recommended for exploration):
+  1. Start Jupyter: `jupyter notebook` or `jupyter lab`
+  2. Open `analysis.ipynb` and run cells sequentially.
+
+- Command line (scripts):
+  1. Collect data: `python extract_data.py --output data/raw_reviews.csv`
+  2. Clean data: `python cleaning_data.py --input data/raw_reviews.csv --output data/clean_reviews.csv`
+  3. Train & evaluate: `python sentiment_analysis.py --input data/clean_reviews.csv --model-output models/` 
+
+Script arguments may vary — open the top of each script to see available CLI flags.
+
+---
+
+## Data source and ethics
+
+- Source: Reviews were collected from Skytrax (AirlineQuality): https://www.airlinequality.com/airline-reviews/british-airways/
+- Note: If you plan to reproduce this work, check the site’s robots.txt and terms of service. Use scraped data responsibly and respect copyright and privacy.
+- The repository contains no personal data other than the publicly-posted review text. If you extend this project, consider anonymization best practices.
+
+---
+
+## Methodology (detailed)
+
+1. Data collection
+   - Reviews are scraped from the British Airways page on Skytrax using `extract_data.py`.
+
+2. Preprocessing
+   - Typical steps implemented in `cleaning_data.py` include: lowercasing, HTML removal, punctuation removal, tokenization, stopword removal, and optional stemming/lemmatization.
+   - Additional cleaning for this domain: removing short non-informative reviews, handling non-English content, and normalizing common airline-specific tokens (e.g., flight numbers).
+
+3. Feature engineering
+   - Baseline: TF-IDF vectors (unigrams/bigrams)
+   - Optionally: pretrained transformer embeddings (from Hugging Face models) to capture semantic context
+
+4. Modeling
+   - Baseline classifier: Logistic Regression with cross-validation
+   - Additional models: SVM, Random Forests, or fine-tuned transformer models (if compute permits)
+
+5. Evaluation
+   - Metrics: accuracy, precision, recall, F1 score (per-class and macro), and confusion matrix
+   - Visualizations: distribution plots, word clouds per sentiment class, and time-based sentiment trends if timestamps exist
+
+---
+
+## Reproducing results and tips
+
+- For stable results, set random seeds in the notebook/scripts (numpy, random, and sklearn seeding).
+- If using transformer embeddings, cache model outputs to disk so you do not recompute embeddings each run.
+- Use stratified sampling when creating train/test splits because classes can be imbalanced.
+
+---
+
+## Dependencies
+
+Key libraries used (see `requirements.txt` for full, pinned versions):
+
+- pandas, numpy
+- scikit-learn
+- nltk (tokenization, stopwords)
+- matplotlib, seaborn, wordcloud
+- transformers (optional — for transformer embeddings)
+
+---
+
+## What you can add / next steps
+
+- Improve scraping to collect richer metadata (dates, ratings, route, cabin class)
+- Add a model interpretability step (LIME/SHAP) to explain predictions
+- Fine-tune a transformer model for better performance
+- Build a simple dashboard (Streamlit or Dash) for interactive exploration
+
+---
+
+## Author
+
+Developed by Shoyombo Moshood O. — https://linkedin.com/in/shoyombo-moshood-582003126/
+
+For questions, feature requests, or contributions, please open an issue or create a PR.
+
+---
+
+## License
+
+This repository currently has no explicit license file. If you want to open-source it, consider adding a LICENSE (for example, MIT) to clarify reuse terms.
