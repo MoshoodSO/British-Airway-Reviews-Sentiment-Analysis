@@ -89,7 +89,7 @@ Script arguments may vary — open the top of each script to see available CLI f
 
 ---
 
-## Methodology (detailed)
+## Methodology 
 
 1. Data collection
    - Reviews are scraped from the British Airways page on Skytrax using `extract_data.py`.
