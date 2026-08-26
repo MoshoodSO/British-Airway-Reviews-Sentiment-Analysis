@@ -18,7 +18,7 @@ The goal is to provide actionable insights for stakeholders (product managers, c
 
 ---
 
-## Key results (short)
+## Key results
 
 - Reviews are classified into positive, negative, and neutral categories.
 - Visualizations include sentiment distribution, common keywords per sentiment, and word clouds to highlight frequent terms.
