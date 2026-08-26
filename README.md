@@ -143,7 +143,7 @@ Key libraries used (see `requirements.txt` for full, pinned versions):
 
 ## Author
 
-Developed by Shoyombo Moshood O. — [!LinkedIn](https://linkedin.com/in/shoyombo-moshood-582003126/)
+Developed by Shoyombo Moshood O. — ![LinkedIn](https://linkedin.com/in/shoyombo-moshood-582003126/)
 
 For questions, feature requests, or contributions, please open an issue or create a PR.
 
