@@ -17,6 +17,10 @@ This project demonstrates an end-to-end Natural Language Processing (NLP) workfl
 The goal is to provide actionable insights for stakeholders (product managers, customer-experience teams, data scientists) who want to understand passenger sentiment and key pain points.
 
 ---
+## Graphical overview
+
+
+---
 
 ## Key results
 
