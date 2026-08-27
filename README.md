@@ -17,8 +17,9 @@ This project demonstrates an end-to-end Natural Language Processing (NLP) workfl
 The goal is to provide actionable insights for stakeholders (product managers, customer-experience teams, data scientists) who want to understand passenger sentiment and key pain points.
 
 ---
-## Graphical overview
+## Pictorial overview
 
+![overview](https://github.com/MoshoodSO/British-Airway-Reviews-Sentiment-Analysis/blob/main/demo/report_gif.gif)
 
 ---
 
